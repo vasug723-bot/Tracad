@@ -1,4 +1,4 @@
-Tracad
+TRACAD
 Tracad is a smart student planner and productivity management website designed to help students organize assignments, quizzes, projects, deadlines, and schedules efficiently.
 
 Features
