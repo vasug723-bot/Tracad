@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tracad | Smart Student Planner</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/6b4b5f0d8b.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    
+
+    <!-- BACKGROUND BLUR EFFECTS -->
+
+    <div class="blur blur1"></div>
+    <div class="blur blur2"></div>
+
+
+
+    <!-- NAVBAR -->
+
+    <nav>
+
+        <div class="logo">
+
+            <i class="fa-solid fa-graduation-cap"></i>
+
+            Tracad
+
+        </div>
+
+
+        <ul>
+
+            <li><a href="#home">Home</a></li>
+
+            <li><a href="#features">Features</a></li>
+
+            <li><a href="#dashboard">Dashboard</a></li>
+
+            <li><a href="#stats">Stats</a></li>
+
+            <li><a href="#calendar">Calendar</a></li>
+
+            <li>
+
+    <button id="loginOpenBtn" class="login-nav-btn">
+
+        Login
+
+    </button>
+    <button id="logoutBtn"
+    class="login-nav-btn logout-btn">
+
+    Logout
+
+</button>
+
+</li>
+
+<li>
+
+    <button id="themeToggleBtn"
+        class="theme-btn">
+
+        🌙
+
+    </button>
+
+</li>
+
+        </ul>
+
+    </nav>
+
+
+
+
+    <!-- HERO SECTION -->
+
+    <section class="hero" id="home">
+
+
+        <div class="hero-left">
+
+            <p class="tag">
+
+                SMART STUDENT PLANNER
+
+            </p>
+
+
+            <h1>
+
+                Organize Your
+                Academic Life
+                <span>Like Never Before</span>
+
+            </h1>
+
+
+            <p class="hero-text">
+
+                Track assignments, exams, projects and deadlines
+                with an interactive productivity dashboard built
+                specially for students.
+
+            </p>
+
+
+            <div class="hero-buttons">
+
+                <button class="primary-btn" id="exploreBtn">
+
+                    Explore
+
+                </button>
+
+
+                <button class="secondary-btn" id="dashboardBtn">
+
+    Live Dashboard
+
+</button>
+
+            </div>
+
+
+            <div class="hero-stats">
+
+                <div>
+
+                    <h2>98%</h2>
+
+                    <p>Task Accuracy</p>
+
+                </div>
+
+
+                <div>
+
+                    <h2>24/7</h2>
+
+                    <p>Accessibility</p>
+
+                </div>
+
+
+                <div>
+
+                    <h2>100+</h2>
+
+                    <p>Tasks Managed</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+
+        <!-- RIGHT SIDE -->
+
+        <div class="hero-right">
+
+
+            <div class="dashboard-card">
+
+
+                <div class="top-bar">
+
+                    <div class="dots">
+
+                        <span></span>
+                        <span></span>
+                        <span></span>
+
+                    </div>
+
+                    <h3>Student Dashboard</h3>
+
+                </div>
+
+
+
+                <div class="progress-area">
+
+                    <div class="circle">
+
+                        <h1 id="progressNumber">
+                            72%
+                        </h1>
+
+                    </div>
+
+
+                    <div class="progress-text">
+
+                        <h2>
+                            Weekly Progress
+                        </h2>
+
+                        <p>
+                            You completed 18 tasks this week.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="upcoming">
+
+                    <div class="task-preview high-task">
+
+                        <div>
+
+                            <h4>DBMS Assignment</h4>
+
+                            <p>Due Tomorrow</p>
+
+                        </div>
+
+                        <span>HIGH</span>
+
+                    </div>
+
+
+
+                    <div class="task-preview medium-task">
+
+                        <div>
+
+                            <h4>DSA Quiz</h4>
+
+                            <p>2 Days Left</p>
+
+                        </div>
+
+                        <span>MED</span>
+
+                    </div>
+
+
+
+                    <div class="task-preview low-task">
+
+                        <div>
+
+                            <h4>Maths Internal</h4>
+
+                            <p>5 Days Left</p>
+
+                        </div>
+
+                        <span>LOW</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+    <!-- FEATURES -->
+
+    <section class="features" id="features">
+
+
+        <div class="section-title">
+
+            <p>FEATURES</p>
+
+            <h1>Everything Students Need</h1>
+
+        </div>
+
+
+
+        <div class="feature-container">
+
+
+            <div class="feature-card">
+
+                <i class="fa-solid fa-list-check"></i>
+
+                <h2>Task Management</h2>
+
+                <p>
+                    Add and organize assignments, quizzes
+                    and project deadlines efficiently.
+                </p>
+
+            </div>
+
+
+
+            <div class="feature-card">
+
+                <i class="fa-solid fa-clock"></i>
+
+                <h2>Deadline Reminder</h2>
+
+                <p>
+                    Smart reminder indicators for urgent
+                    academic activities.
+                </p>
+
+            </div>
+
+
+
+            <div class="feature-card">
+
+                <i class="fa-solid fa-chart-line"></i>
+
+                <h2>Analytics</h2>
+
+                <p>
+                    Track productivity and completion
+                    statistics visually.
+                </p>
+
+            </div>
+
+
+
+            <div class="feature-card">
+
+                <i class="fa-solid fa-calendar-days"></i>
+
+                <h2>Schedule Planning</h2>
+
+                <p>
+                    Maintain academic discipline with
+                    structured scheduling.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+
+    <!-- DASHBOARD -->
+
+    <section class="dashboard" id="dashboard">
+
+
+        <div class="section-title">
+
+            <p>LIVE TASK SYSTEM</p>
+
+            <h1>Interactive Dashboard</h1>
+
+        </div>
+
+
+
+
+        <div class="task-dashboard">
+
+
+            <div class="task-input-box">
+
+                <input type="text" id="taskInput" placeholder="Enter task...">
+
+
+                <input type="date" id="dateInput">
+
+
+                <select id="priorityInput">
+
+                    <option value="High">
+                        High Priority
+                    </option>
+
+                    <option value="Medium">
+                        Medium Priority
+                    </option>
+
+                    <option value="Low">
+                        Low Priority
+                    </option>
+
+                </select>
+
+
+                <button id="addTaskBtn">
+
+                    Add Task
+
+                </button>
+
+            </div>
+
+
+<div class="search-box">
+
+    <input
+        type="text"
+        id="searchTask"
+        placeholder="Search tasks..."
+    >
+
+</div>
+
+            <div class="filter-buttons">
+
+                <button class="filter active" data-filter="all">
+
+                    All
+
+                </button>
+
+                <button class="filter" data-filter="High">
+
+                    High
+
+                </button>
+
+                <button class="filter" data-filter="Medium">
+
+                    Medium
+
+                </button>
+
+                <button class="filter" data-filter="Low">
+
+                    Low
+
+                </button>
+
+            </div>
+
+
+
+
+            <div id="taskList">
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+
+    <!-- STATS -->
+
+    <section class="stats" id="stats">
+
+
+        <div class="stat-card">
+
+            <h1 id="totalTasks">
+                0
+            </h1>
+
+            <p>Total Tasks</p>
+
+        </div>
+
+
+
+        <div class="stat-card">
+
+            <h1 id="completedTasks">
+                0
+            </h1>
+
+            <p>Completed</p>
+
+        </div>
+
+
+
+        <div class="stat-card">
+
+            <h1 id="pendingTasks">
+                0
+            </h1>
+
+            <p>Pending</p>
+
+        </div>
+
+    </section>
+
+
+<!-- CALENDAR -->
+
+<section class="calendar-section" id="calendar">
+
+    <div class="section-title">
+
+        <p>ACADEMIC CALENDAR</p>
+
+        <h1>Smart Monthly Planner</h1>
+
+    </div>
+
+    <div class="calendar-container">
+
+        <div class="calendar-header">
+
+    <button id="prevMonth">
+
+        ←
+
+    </button>
+
+    <h2 id="monthYear"></h2>
+
+    <button id="nextMonth">
+
+        →
+
+    </button>
+
+</div>
+
+        <div class="calendar-days">
+
+            <div>Sun</div>
+            <div>Mon</div>
+            <div>Tue</div>
+            <div>Wed</div>
+            <div>Thu</div>
+            <div>Fri</div>
+            <div>Sat</div>
+
+        </div>
+
+        <div class="calendar-grid" id="calendarGrid">
+
+        </div>
+
+    </div>
+
+</section>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <h2>Tracad</h2>
+
+        <p>
+            Empowering students through smarter planning, cleaner organization and stress-free productivity.
+        </p>
+
+        <p class="team-credit">
+
+    Crafted with creativity and code by
+    Vipul Garg, Vaibhav Sharma & VVK
+
+</p>
+
+    </footer>
+
+
+    <div id="notificationBox"></div>
+    <div class="login-modal" id="loginModal">
+
+    <div class="login-box">
+
+        <h2>Student Login</h2>
+
+        <input
+            type="text"
+            id="username"
+            placeholder="Enter Username"
+        >
+
+        <input
+            type="password"
+            id="password"
+            placeholder="Enter Password"
+        >
+
+        <button id="loginBtn">
+
+            Login
+
+        </button>
+
+        <p id="loginMessage"></p>
+
+    </div>
+
+</div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
